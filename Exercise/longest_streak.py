@@ -30,7 +30,7 @@ def longest_streak(head, val=0, counter=1, first=True, max_streak=0):
         # skip over first node
         first = False 
     else:
-       # break the streak and update max_streak
+        # break the streak and update max_streak
         if head.val != val:
             max_streak = max(max_streak, counter)
             counter = 1
